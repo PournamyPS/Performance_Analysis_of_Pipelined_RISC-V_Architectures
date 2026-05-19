@@ -21,8 +21,11 @@ The simulation is run in **Ripes** a visual RISC-V pipeline simulator using a co
 
 ## 🛠️ How to Run
 1.Download Ripes from [github](github.com/mortbopet/Ripes)
+
 2. Click **Editor** tab and paste the code from `pipeline_test.s`
+
 3. Go to **Settings** → set processor to **5-stage** with **no forwarding, no hazard detection**
+
 4. Click **Run** and observe the pipeline diagram
 
 ---
