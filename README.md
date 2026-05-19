@@ -7,7 +7,7 @@
 ## 📌 About This Project
 This project investigates how instructions flow through a **5-stage RISC-V pipeline** and how **data hazards** emerge when forwarding and hazard detection mechanisms are absent.
 
-The simulation is run in **Ripes** — a visual RISC-V pipeline simulator — using a configuration with **no forwarding and no hazard detection**.
+The simulation is run in **Ripes** a visual RISC-V pipeline simulator using a configuration with **no forwarding and no hazard detection**.
 
 ---
 
@@ -21,7 +21,7 @@ The simulation is run in **Ripes** — a visual RISC-V pipeline simulator — us
 
 ## 🛠️ How to Run
 1. Go to [Ripes Simulator](https://ripes.me/) in your browser
-2. Click **Editor** tab and paste the code from `src/pipeline_test.s`
+2. Click **Editor** tab and paste the code from `pipeline_test.s`
 3. Go to **Settings** → set processor to **5-stage** with **no forwarding, no hazard detection**
 4. Click **Run** and observe the pipeline diagram
 
